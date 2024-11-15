@@ -4,6 +4,7 @@ import SectionOurServices from "./SectionOurServices";
 import SectionBeautyConsultation from "./SectionBeautyConsultation";
 import SectionSkinTreatment from "./SectionSkinTreatment";
 import SectionBeautyProduct from "./SectionBeautyProduct";
+import SectionSlogan from "./SectionSlogan";
 
 const ServiceScenario = () => {
   return (
@@ -12,6 +13,7 @@ const ServiceScenario = () => {
       <SectionBeautyConsultation />
       <SectionSkinTreatment />
       <SectionBeautyProduct />
+      <SectionSlogan />
     </main>
   );
 };
